@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  
+  <!--font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Serif&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+<!--icons-->
+<script src="https://kit.fontawesome.com/a32793013f.js" crossorigin="anonymous"></script>
+<!--swiper-->
+<link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+  <title>Sastipadhai.com</title>
+</head>
+<body>
+  <!--navbar-->
+  <nav class="navbar">
+  <h2 class="navbar-logo"><a href="#">job.in</a></h2>
+  <div class="navbar-menu">
+    <a href="#jobs"></a>
+    <a href="#companies">companies</a>
+    <a href="#testimoni">Testimonial</a>
+    <a href="#blog">Blog</a>
+    <a href="#">Sign In</a>
+  </div>
+  <div class="menu-toggle">
+    <span class="bar"></span>
+    <span class="bar"></span>
+    <span class="bar"></span>
+  </div>
+</nav>
+  <!-- header -->
+  <header>
+    <img src="j6.jpeg" class="header-image"> 
+    <h1 class="header-title">
+      FIND YOUR <br> <span> PERFECT JOB </span><br>EASILY
+    </h1>
+  </header>
+
+  <!--search-->
+  <div class="search-wrapper">
+    <div class="search-box">
+      <div class="search-card">
+      <input type="text" class="search-input" placeholder="job title  or ">
+      <button class="search-button">Search</button>
+    </div>
+    </div>
+  </div>
+
+  <!--filter box-->
+
+<div class="filter-box">
+  <div class="filter-dropdown">
+    <select name="job-level" id="job-level" class="filter-select">
+      <option>job-level</option>
+      <option>entry</option>
+      <option>mid-senior</option>
+      <option>director</option>
+    </select>
+
+    <select name="job-function" id="job-function" class="filter-select">
+      <option>job-function</option>
+      <option>IT</option>
+      <option>managment</option>
+      <option>eduction</option>
+    </select>
+
+    <select name="employment" id="employment" class="filter-select">
+      <option>employment tyoe</option>
+      <option>internship</option>
+      <option>part-time</option>
+      <option>full-time</option>
+    </select>
+
+    <select name="job-level" id="job-level" class="filter-select">
+      <option>job-level</option>
+      <option>entry</option>
+      <option>mid-senior</option>
+      <option>director</option>
+    </select>
+
+    <select name="location" id="location" class="filter-select">
+      <option>locations</option>
+      <option>remote</option>
+      <option>India</option>
+      <option>United kingdom</option>
+      <option>canada </option>
+      <option>United state </option>
+      <option>Pakistan</option>
+      <option>Sri lanka</option>
+      <option>Nepal</option>
+      <option>Bhutan</option>
+      <option>Bangladesh</option>
+      <option>China</option>
+      <option>Russia</option>  
+    </select>
+
+    <select name="eduction" id="eduction" class="filter-select">
+      <option>eduction</option>
+      <option>high school</option>
+      <option>bachler's degree</option>
+      <option>master's degree</option>
+    </select>
+  </div>
+
+  <div class="filter-chosen">
+    <div class="chosen-card">
+      Remote <i class="fas fa-time-circle"></i>
+    </div>
+    <div class="chosen-card">
+      Full-time <i class="fas fa-time-circle"></i>
+    </div>
+    <div class="chosen-card">
+      Finantial Tech <i class="fas fa-time-circle"></i>
+    </div>
+    <div class="chosen-card">
+      Entry Level <i class="fas fa-time-circle"></i>
+    </div>
+  </div>
+</div>
+
+<!--job-listing-->
+<section class="job-list" id="jobs">
+  <div class="job-card">
+    <div class="job-name">
+      <img src="images/j4.jpeg" class="job-profile">
+      <div class="job-detail">
+        <h4>TATA MOTORS</h4>
+        <h3>Mechanical Engineer</h3>
+        <p>Our body director inspire ,motivates and sucess by defining.</p>
+      </div>
+    </div>
+    <div class="job-label">
+      <a class="label-a" href="#">HTML</a>
+      <a class="label-b" href="#">CSS</a>
+      <a class="label-c" href="#">Javascript</a>
+    </div>
+    <div class="job-posted">
+      Posted 2 mins ago
+    </div>
+  </div>
+
+  <div class="job-card">
+    <div class="job-name">
+      <img src="images/j5.jpeg" class="job-profile">
+      <div class="job-detail">
+        <h4>allen coaching center</h4>
+        <h3>Manegment Manager</h3>
+        <p>Our body director inspire ,motivates and sucess by defining.</p>
+      </div>
+    </div>
+    <div class="job-label">
+      <a class="label-a" href="#">HTML</a>
+      <a class="label-b" href="#">CSS</a>
+      <a class="label-c" href="#">Javascript</a>
+    </div>
+    <div class="job-posted">
+      Posted 10 mins ago
+    </div>
+  </div>
+
+
+  <div class="job-card">
+    <div class="job-name">
+      <img src="images/j7.jpeg" class="job-profile">
+      <div class="job-detail">
+        <h4>akansha children academy</h4>
+        <h3>Science Teacher</h3>
+        <p>Our body director inspire ,motivates and sucess by defining.</p>
+      </div>
+    </div>
+    <div class="job-label">
+      <a class="label-a" href="#">HTML</a>
+      <a class="label-b" href="#">CSS</a>
+      <a class="label-c" href="#">Javascript</a>
+    </div>
+    <div class="job-posted">
+      Posted 3 hour ago
+    </div>
+  </div>
+
+
+
+  <div class="job-card">
+    <div class="job-name">
+      <img src="images/j8.jpg" class="job-profile">
+      <div class="job-detail">
+        <h4>Akash Shukla</h4>
+        <h5>Founder steel taxes</h5>
+        <h3>Production Manager</h3>
+        <p>Our body director inspire ,motivates and sucess by defining.</p>
+      </div>
+    </div>
+    <div class="job-label">
+      <a class="label-a" href="#">HTML</a>
+      <a class="label-b" href="#">CSS</a>
+      <a class="label-c" href="#">Javascript</a>
+    </div>
+    <div class="job-posted">
+      Posted 2 hour ago
+    </div>
+  </div>
+
+
+  <div class="job-card">
+    <div class="job-name">
+      <img src="images/j9.png" class="job-profile">
+      <div class="job-detail">
+        <h4>Sainik Public School</h4>
+        <h3>English Teacher</h3>
+        <p>Our body director inspire ,motivates and sucess by defining.</p>
+      </div>
+    </div>
+    <div class="job-label">
+      <a class="label-a" href="#">HTML</a>
+      <a class="label-b" href="#">CSS</a>
+      <a class="label-c" href="#">Javascript</a>
+    </div>
+    <div class="job-posted">
+      Posted 4 hour ago
+    </div>
+  </div>
+
+  <button class="job-more">More-List</button>
+
+</section>
+
+<!--join-->
+<section class="join">
+  <div class="join-detail">
+    <h1 class="section-title">LETS START NEW JOB WITH US </h1>
+    <P>We are providing to you a better job with our security </P>
+  </div>
+  <button class="join-button">Join Now</button>
+</section>
+
+<!--featured companies-->
+<section class="featured" id="companies">
+   <h1 class="section-tittle">Featured companies</h1>
+  <p>Accurate & Easy Tax Solutions for Your Business. We Help Companies to Comply and Grow with Confidence. Learn More Today.
+     10,000+ Clients Globally. Reduce Audit Risks. Leading Provider. Improve Compliance. Services: Business 
+     Tax Automation, Sales and Use Tax Returns, Business Tax Software, Tax Data Management, Tax Modeling & 
+     Planning, Global Tax Services.</p>
+     <div class="featured-warpper">
+      <div class="featured-card">
+      <img class="featured-image" src="images/j12.jpeg" >
+      <p>TATA MOTERS</p>
+      <button class="featured-button">View 2 jobs</button>
+    </div>
+    <div class="featured-card">
+      <img class="featured-image" src="images/j14.jpeg" >
+      <p>YouTube</p>
+      <button class="featured-button">View 3 jobs</button>
+    </div>
+
+    <div class="featured-card">
+      <img class="featured-image" src="images/j15.jpeg" >
+      <p>SAMSUNG</p>
+      <button class="featured-button">View 1 jobs</button>
+    </div>
+
+    <div class="featured-card">
+      <img class="featured-image" src="images/j16.jpeg" >
+      <p>Flipkart</p>
+      <button class="featured-button">View 4 jobs</button>
+    </div>
+
+    <div class="featured-card">
+      <img class="featured-image" src="images/j17.jpeg" >
+      <p>Amazon</p>
+      <button class="featured-button">View 5 jobs</button>
+    </div>
+
+    <div class="featured-card">
+      <img class="featured-image" src="images/j18.jpeg" >
+      <p>CocaCola</p>
+      <button class="featured-button">View 2 jobs</button>
+    </div>
+
+    <div class="featured-card">
+      <img class="featured-image" src="images/j19.jpeg" >
+      <p>Facebook</p>
+      <button class="featured-button">View 2 jobs</button>
+    </div>
+
+    <div class="featured-card">
+      <img class="featured-image" src="images/j20.jpeg" >
+      <p>TESLA</p>
+      <button class="featured-button">View 2 jobs</button>
+    </div>
+
+
+    <div class="featured-card">
+      <img class="featured-image" src="images/j21.jpeg" >
+      <p>TOYOTA</p>
+      <button class="featured-button">View 2 jobs</button>
+    </div>
+
+
+    <div class="featured-card">
+      <img class="featured-image" src="images/j22.jpeg" >
+      <p>Mahindra</p>
+      <button class="featured-button">View 2 jobs</button>
+    </div>
+
+    </div>
+</section>
+<!--testimoni-->
+<section class="testimoni" id="testimoni">
+<h1 class="section-title">Testimonial</h1>
+<p>Lets se what our clients say about us </p>
+<div class="swiper mySwiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">
+      <i class="fa fa-quote-left"></i>
+      <h3>You are doing a great work i really impressed with you.</h3>
+         <div class="testimoni-pic">
+          <img src="images/j26.jpeg" >
+          <p>Arvind kejriwal</p>
+          <span>Indian plitisian</span>
+         </div>
+    </div>
+    <div class="swiper-slide">
+      <i class="fa fa-quote-left"></i>
+      <h3>Verma, who studied in Patna Science College and also taught there before 
+        moving to IIT, Kanpur, is known for his famous book 'Concepts of Physics', which is the
+         prize possession with all IIT aspirants.
+         Now, almost three decades later, he has come up with another one 'Bhoutiki ki Samajh' in Hindi.</h3>
+         <div class="testimoni-pic">
+          <img src="images/j24.jpeg" >
+          <p>Dr H C Verma </p>
+          <span>Professor of Physics</span>
+         </div>
+    </div>
+    <div class="swiper-slide">
+      <i class="fa fa-quote-left"></i>
+      <h3>Sonu Sood is an Indian actor, film producer, model, humanitarian, and philanthropist 
+        who works predominantly in Hindi, Telugu, Tamil and Kannada films</h3>
+         <div class="testimoni-pic">
+          <img src="images/j25.jpeg" >
+          <p>Sonu sood </p>
+          <span>Indian actor</span>
+         </div>
+    </div>
+
+    <div class="swiper-slide">
+      <i class="fa fa-quote-left"></i>
+      <h3>Physics Wallah, aka Alakh Pandey, is the most famous young YouTuber from India.
+         He shoots and uploads videos regarding the study material. 
+         He has 2 million subscribers on his YouTube channel. 
+         He came into fame because of his amazing teaching skills. 
+         Alakh is also a motivational speaker, he always cheers up to every single student.
+          He has a huge fan base on his other social media platforms.
+           Alakh Pandey was born and brought up in Prayagraj (Allahabad), Uttar Pradesh, India.
+
+      </h3>
+         <div class="testimoni-pic">
+          <img src="images/j23.jpeg" >
+          <p>Alakh Pandey</p>
+          <span>Businessman & Teacher</span>
+         </div>
+    </div>
+  </div>
+  <div class="swiper-pagination"></div>
+
+</div>
+</section>
+
+<!--blog-->
+<section class="blog" id="blog">
+  <h1 class="section-title">Career Advices</h1>
+  <p>Learn more Career tips from company's recruter</p>
+  <div class="blog-warpper">
+    <div class="blog-card">
+      <img class="blog-image" src="images/j4.jpeg">
+      <div class="blog-detail">
+        <span>01 July 2022</span>
+        <h4>How to enjoy your work</h4>
+        <p>Take breaks. During a busy workday, it is important you take time away 
+          from your desk to get your mind off your job. ...</p>
+          <hr class="divider">
+          <a href="#" class="blog-more">Read More</a>
+      </div>
+
+    </div>
+
+    <div class="blog-card">
+      <img class="blog-image" src="images/j1.jpeg">
+      <div class="blog-detail">
+        <span>01 July 2022</span>
+        <h4>How to enjoy your work</h4>
+        <p>Take breaks. During a busy workday, it is important you take time away 
+          from your desk to get your mind off your job. ...</p>
+          <hr class="divider">
+          <a href="#" class="blog-more">Read More</a>
+      </div>
+
+    </div>
+
+    <div class="blog-card">
+      <img class="blog-image" src="images/j2.jpeg">
+      <div class="blog-detail">
+        <span>04 July 2022</span>
+        <h4>How to enjoy your work</h4>
+        <p>Take breaks. During a busy workday, it is important you take time away 
+          from your desk to get your mind off your job. ...</p>
+          <hr class="divider">
+          <a href="#" class="blog-more">Read More</a>
+      </div>
+
+    </div>
+  </div>
+
+</section>
+
+<!--footer-->
+<footer>
+  <div class="footer-wrapper">
+    <h3>Job.in</h3>
+    <p>Job.in help to find good job easily and also give you best motivation to become success.  </p>
+    <div class="social-media">
+      <a href="#"> <i class="fab fa-facebook-f"></i></a>
+      <a href="#"> <i class="fab fa-twitter"></i></a>
+      <a href="#"> <i class="fab fa-instagram"></i></a>
+      <a href="#"> <i class="fab fa-youtube"></i></a>
+    </div>
+  </div>
+  <div class="footer-wrapper">
+    <h4>Explore</h4>
+    <a href="#">Top companies</a>
+    <a href="#">Term of services</a>
+    <a href="#">Podcast</a>
+    <a href="#">careers</a>
+  </div>
+  <div class="footer-wrapper">
+    <h4>About</h4>
+    <a href="#">FAQ</a>
+    <a href="#">Get Inspired</a>
+    <a href="#">Blog</a>
+  </div>
+
+  <div class="footer-wrapper">
+    <h4>Support</h4>
+    <a href="#">Custumer service</a>
+    <a href="#">Trust & Safety</a>
+    <a href="#">Partnership</a>
+  </div>
+  <div class="footer-wrapper">
+    <h4>Community</h4>
+    <a href="#"></a>
+    <a href="#">Invite a friend </a>
+    <a href="#">Event</a>
+  </div>
+
+</footer>
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html> 
